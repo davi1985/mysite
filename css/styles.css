@@ -336,6 +336,6 @@ section#intro .projects {
   
  .project-card {
     width: 100%;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
   }
 }
