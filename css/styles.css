@@ -65,7 +65,7 @@ section#intro .content {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:calc(100vh - 9rem);
+  height:calc(100vh - 13rem);
   color: var(--text);
 }
 
@@ -98,6 +98,21 @@ section#intro .content .left h2 span {
 section#intro .content .left h3 {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.social-icons-home {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.social-icons-home a {
+  display: flex;
+  padding: 1rem;
+}
+
+.social-icons-home a + a {
+  margin-left: 1rem;
 }
 
 footer {
@@ -206,8 +221,12 @@ section#intro.about {
   display: flex;
   flex-direction: column;
 }
-.social-icons{
+.social-icons {
   margin-top: 1rem;
+}
+
+.social-icons a {
+  text-decoration: none;
 }
 
 .social-icons a + a{
@@ -256,12 +275,15 @@ section#intro .projects {
 }
 
 .project-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column;
+  justify-content: center; */
   background-color: white;
   width: calc(50% - 1rem);
   text-align: center;
+}
+
+.project-card img {
+  width:100%;
 }
 
 .project-card h2 {
